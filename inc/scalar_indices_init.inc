@@ -1,0 +1,42 @@
+!STARTOFREGISTRYGENERATEDINCLUDE 'inc/scalar_indices_init.inc'
+!
+! WARNING This file is generated automatically by use_registry
+! using the data base in the file named Registry.
+! Do not edit.  Your changes to this file will be lost.
+!
+  num_moist = moist_num_table( idomain )
+  num_dfi_moist = dfi_moist_num_table( idomain )
+  num_scalar = scalar_num_table( idomain )
+  num_dfi_scalar = dfi_scalar_num_table( idomain )
+  num_aerod = aerod_num_table( idomain )
+  num_ozmixm = ozmixm_num_table( idomain )
+  num_aerosolc = aerosolc_num_table( idomain )
+  num_fdda3d = fdda3d_num_table( idomain )
+  num_fdda2d = fdda2d_num_table( idomain )
+  num_advh_t = advh_t_num_table( idomain )
+  num_advz_t = advz_t_num_table( idomain )
+  num_emis_ant = emis_ant_num_table( idomain )
+  num_eghg_bio = eghg_bio_num_table( idomain )
+  num_emis_dust = emis_dust_num_table( idomain )
+  num_emis_seas = emis_seas_num_table( idomain )
+  num_emis_seas2 = emis_seas2_num_table( idomain )
+  num_emis_vol = emis_vol_num_table( idomain )
+  num_ebu = ebu_num_table( idomain )
+  num_ebu_in = ebu_in_num_table( idomain )
+  num_emis_aircraft = emis_aircraft_num_table( idomain )
+  num_ext_coef = ext_coef_num_table( idomain )
+  num_bscat_coef = bscat_coef_num_table( idomain )
+  num_asym_par = asym_par_num_table( idomain )
+  num_conv_ct = conv_ct_num_table( idomain )
+  num_chem_ct = chem_ct_num_table( idomain )
+  num_vmix_ct = vmix_ct_num_table( idomain )
+  num_advh_ct = advh_ct_num_table( idomain )
+  num_advz_ct = advz_ct_num_table( idomain )
+  num_dvel = dvel_num_table( idomain )
+  num_vprm_in = vprm_in_num_table( idomain )
+  num_wet_in = wet_in_num_table( idomain )
+  num_chem = chem_num_table( idomain )
+  num_tracer = tracer_num_table( idomain )
+  num_nba_mij = nba_mij_num_table( idomain )
+  num_nba_rij = nba_rij_num_table( idomain )
+!ENDOFREGISTRYGENERATEDINCLUDE
