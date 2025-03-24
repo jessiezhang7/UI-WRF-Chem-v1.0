@@ -1,0 +1,45 @@
+[35m[Kbk_sub/real.submit2[m[K[36m[K:[m[Kln -sf /Dedicated/jwang-data/wrf_modelling/WRF_forecast_Ca1/WRFV_convert_Ca/test/em_real_d01/*wrf[01;31m[Kchem[m[Ki*d01* .
+[35m[Kbk_sub/real.submit2[m[K[36m[K:[m[Krename d01 d02 /Dedicated/jwang-data/wrf_modelling/WRF_forecast_Ca1/WRFV_convert_Ca/test/em_real_d02/*wrf[01;31m[Kchem[m[Ki*d01*
+[35m[Kbk_sub/real.submit2[m[K[36m[K:[m[Kln -sf /Dedicated/jwang-data/wrf_modelling/WRF_forecast_Ca1/WRFV_convert_Ca/test/em_real_d02/*wrf[01;31m[Kchem[m[Ki*d02* .
+[35m[Kbk_sub/real.submit2[m[K[36m[K:[m[Krename d01 d03 /Dedicated/jwang-data/wrf_modelling/WRF_forecast_Ca1/WRFV_convert_Ca/test/em_real_d03/*wrf[01;31m[Kchem[m[Ki*d01*
+[35m[Kbk_sub/real.submit2[m[K[36m[K:[m[Kln -sf /Dedicated/jwang-data/wrf_modelling/WRF_forecast_Ca1/WRFV_convert_Ca/test/em_real_d03/*wrf[01;31m[Kchem[m[Ki*d03* .
+[35m[Kbk_sub/real.submit2[m[K[36m[K:[m[K#rename d01 d04 /Dedicated/jwang-data/wrf_modelling/WRF_forecast_Ca1/WRFV_convert_Ca/test/em_real_d03/*wrf[01;31m[Kchem[m[Ki*d01*
+[35m[Kbk_sub/real.submit2[m[K[36m[K:[m[K#ln -sf /Dedicated/jwang-data/wrf_modelling/WRF_forecast_Ca1/WRFV_convert_Ca/test/em_real_d04/*wrf[01;31m[Kchem[m[Ki*d04* .
+[35m[Kbk_sub/real.submit2[m[K[36m[K:[m[Kpath_run='/Dedicated/jwang-data/wrf_modelling/WRF_forecast_Ca1/WRF_[01;31m[Kchem[m[K_Ca/test/em_real/'
+[35m[Kbk_sub/real.submit2[m[K[36m[K:[m[Kln -sf /Dedicated/jwang-data/wrf_modelling/WRF_forecast_Ca1/WRFV_convert_Ca/test/em_real/*wrf[01;31m[Kchem[m[Ki* .
+[35m[Kbk_sub/bk_convert.submit[m[K[36m[K:[m[Ksed -i "143s/.*/ [01;31m[Kchem[m[K_opt                            = 0,        0,    0,     0/" namelist.input
+[35m[Kbk_sub/bk_convert.submit[m[K[36m[K:[m[Ksed -i "143s/.*/ [01;31m[Kchem[m[K_opt                            = 2,        2,    2,     2/" namelist.input
+[35m[Kbk_sub/real.submit_t[m[K[36m[K:[m[Kpath_run='/Dedicated/jwang-data/wrf_modelling/WRF_forecast_Ca/WRF_[01;31m[Kchem[m[K_Ca/test/em_real/'
+[35m[Kbk_sub/real.submit_test[m[K[36m[K:[m[Kpath_run='/Dedicated/jwang-data/wrf_modelling/WRF_forecast_Ca/WRF_[01;31m[Kchem[m[K_Ca/test/em_real/'
+[35m[Kbk_sub/real.submit3[m[K[36m[K:[m[Ksed -i "143s/.*/ [01;31m[Kchem[m[K_opt                            = 0,        0,     0,      0/" namelist.input
+[35m[Kbk_sub/real.submit3[m[K[36m[K:[m[K#cp ../wrfout2/wrfout_d01_$year1-$month1-$day1"_12:00:00"  ../wrf_[01;31m[Kchem[m[K_input_d01
+[35m[Kbk_sub/real.submit3[m[K[36m[K:[m[Kcp ./wrfout/wrfout_d01_`date --utc +%Y`-`date --utc +%m`-`date --utc +%d`_$h_update":00:00"  ./wrf_[01;31m[Kchem[m[K_input_d01
+[35m[Kbk_sub/real.submit3[m[K[36m[K:[m[Kcp ./wrfout/wrfout_d02_`date --utc +%Y`-`date --utc +%m`-`date --utc +%d`_$h_update":00:00"  ./wrf_[01;31m[Kchem[m[K_input_d02
+[35m[Kbk_sub/real.submit3[m[K[36m[K:[m[Kcp ./wrfout/wrfout_d03_`date --utc +%Y`-`date --utc +%m`-`date --utc +%d`_$h_update":00:00"  ./wrf_[01;31m[Kchem[m[K_input_d03
+[35m[Kbk_sub/real.submit3[m[K[36m[K:[m[Kcp ./wrfout/wrfout_d04_`date --utc +%Y`-`date --utc +%m`-`date --utc +%d`_$h_update":00:00"  ./wrf_[01;31m[Kchem[m[K_input_d04
+[35m[Kbk_sub/real.submit3[m[K[36m[K:[m[Kpath_run='/Dedicated/jwang-data/wrf_modelling/WRF_forecast_Ca1/WRF_[01;31m[Kchem[m[K_Ca/test/em_real/'
+[35m[Kbk_sub/real.submit22[m[K[36m[K:[m[Kln -sf /Dedicated/jwang-data/wrf_modelling/WRF_forecast_Ca1/WRFV_convert_Ca/test/em_real_d01/*wrf[01;31m[Kchem[m[Ki*d01* .
+[35m[Kbk_sub/real.submit22[m[K[36m[K:[m[Krename d01 d02 /Dedicated/jwang-data/wrf_modelling/WRF_forecast_Ca1/WRFV_convert_Ca/test/em_real_d02/*wrf[01;31m[Kchem[m[Ki*d01*
+[35m[Kbk_sub/real.submit22[m[K[36m[K:[m[Kln -sf /Dedicated/jwang-data/wrf_modelling/WRF_forecast_Ca1/WRFV_convert_Ca/test/em_real_d02/*wrf[01;31m[Kchem[m[Ki*d02* .
+[35m[Kbk_sub/real.submit22[m[K[36m[K:[m[Krename d01 d03 /Dedicated/jwang-data/wrf_modelling/WRF_forecast_Ca1/WRFV_convert_Ca/test/em_real_d03/*wrf[01;31m[Kchem[m[Ki*d01*
+[35m[Kbk_sub/real.submit22[m[K[36m[K:[m[Kln -sf /Dedicated/jwang-data/wrf_modelling/WRF_forecast_Ca1/WRFV_convert_Ca/test/em_real_d03/*wrf[01;31m[Kchem[m[Ki*d03* .
+[35m[Kbk_sub/real.submit22[m[K[36m[K:[m[K#rename d01 d04 /Dedicated/jwang-data/wrf_modelling/WRF_forecast_Ca1/WRFV_convert_Ca/test/em_real_d03/*wrf[01;31m[Kchem[m[Ki*d01*
+[35m[Kbk_sub/real.submit22[m[K[36m[K:[m[K#ln -sf /Dedicated/jwang-data/wrf_modelling/WRF_forecast_Ca1/WRFV_convert_Ca/test/em_real_d04/*wrf[01;31m[Kchem[m[Ki*d04* .
+[35m[Kbk_sub/real.submit22[m[K[36m[K:[m[Kpath_run='/Dedicated/jwang-data/wrf_modelling/WRF_forecast_Ca1/WRF_[01;31m[Kchem[m[K_Ca/test/em_real/'
+[35m[Kbk_sub/real.submit22[m[K[36m[K:[m[Kln -sf /Dedicated/jwang-data/wrf_modelling/WRF_forecast_Ca1/WRFV_convert_Ca/test/em_real/*wrf[01;31m[Kchem[m[Ki* .
+[35m[Kreal.submit[m[K[36m[K:[m[Ksed -i "134s/.*/ [01;31m[Kchem[m[K_opt                            = 2,        2,     2,      2/" namelist.input
+[35m[Kreal.submit[m[K[36m[K:[m[Kcp ./wrfout/wrfout_d01_`date --utc +%Y`-`date --utc +%m`-`date --utc +%d`_$h_update":00:00"  ./wrf_[01;31m[Kchem[m[K_input_d01
+[35m[Kreal.submit[m[K[36m[K:[m[Kcp ./wrfout/wrfout_d02_`date --utc +%Y`-`date --utc +%m`-`date --utc +%d`_$h_update":00:00"  ./wrf_[01;31m[Kchem[m[K_input_d02
+[35m[Kreal.submit[m[K[36m[K:[m[Kcp ./wrfout/wrfout_d03_`date --utc +%Y`-`date --utc +%m`-`date --utc +%d`_$h_update":00:00"  ./wrf_[01;31m[Kchem[m[K_input_d03
+[35m[Kreal.submit[m[K[36m[K:[m[K#cp ./wrfout/wrfout_d04_`date --utc +%Y`-`date --utc +%m`-`date --utc +%d`_$h_update":00:00"  ./wrf_[01;31m[Kchem[m[K_input_d04
+[35m[Kreal.submit[m[K[36m[K:[m[Kpath_run='/Dedicated/jwang-data/wrf_modelling/WRF_forecast_Ca1/WRF_[01;31m[Kchem[m[K_Ca/test/em_real/'
+[35m[Kreal.submit[m[K[36m[K:[m[Krm *wrf[01;31m[Kchem[m[Ki*
+[35m[Kreal.submit[m[K[36m[K:[m[Kln -sf /Dedicated/jwang-data/wrf_modelling/WRF_forecast_Ca1/WRFV_convert_Ca/test/em_real_d01/*wrf[01;31m[Kchem[m[Ki*d01* .
+[35m[Kreal.submit[m[K[36m[K:[m[Krename d01 d02 /Dedicated/jwang-data/wrf_modelling/WRF_forecast_Ca1/WRFV_convert_Ca/test/em_real_d02/*wrf[01;31m[Kchem[m[Ki*d01*
+[35m[Kreal.submit[m[K[36m[K:[m[Kln -sf /Dedicated/jwang-data/wrf_modelling/WRF_forecast_Ca1/WRFV_convert_Ca/test/em_real_d02/*wrf[01;31m[Kchem[m[Ki*d02* .
+[35m[Kreal.submit[m[K[36m[K:[m[Krename d01 d03 /Dedicated/jwang-data/wrf_modelling/WRF_forecast_Ca1/WRFV_convert_Ca/test/em_real_d03/*wrf[01;31m[Kchem[m[Ki*d01*
+[35m[Kreal.submit[m[K[36m[K:[m[Kln -sf /Dedicated/jwang-data/wrf_modelling/WRF_forecast_Ca1/WRFV_convert_Ca/test/em_real_d03/*wrf[01;31m[Kchem[m[Ki*d03* .
+[35m[Kreal.submit[m[K[36m[K:[m[K#rename d01 d04 /Dedicated/jwang-data/wrf_modelling/WRF_forecast_Ca1/WRFV_convert_Ca/test/em_real_d03/*wrf[01;31m[Kchem[m[Ki*d01*
+[35m[Kreal.submit[m[K[36m[K:[m[K#ln -sf /Dedicated/jwang-data/wrf_modelling/WRF_forecast_Ca1/WRFV_convert_Ca/test/em_real_d04/*wrf[01;31m[Kchem[m[Ki*d04* .
+[35m[Kwrf.submit[m[K[36m[K:[m[Kcd /Dedicated/jwang-data/wrf_modelling/WRF_forecast_Ca1/WRF_[01;31m[Kchem[m[K_Ca/test/em_real/
+[35m[Kwrf.submit[m[K[36m[K:[m[Krm -f /Dedicated/jwang-data/wrf_modelling/WRF_forecast_Ca1/WRF_[01;31m[Kchem[m[K_Ca/test/em_real/wrfout/*
